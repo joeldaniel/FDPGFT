@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30653" started-at="2019-05-16T07:15:52Z" finished-at="2019-05-16T07:16:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30653" started-at="2019-05-16T07:15:52Z" finished-at="2019-05-16T07:16:23Z">
+      <class name="testcases.LaunchFD">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:testcases.LaunchFD@3febb011]" name="Setup" is-config="true" duration-ms="7222" started-at="2019-05-16T00:15:45Z" finished-at="2019-05-16T00:15:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="launchFD(java.util.Hashtable)[pri:0, instance:testcases.LaunchFD@3febb011]" name="launchFD" duration-ms="30615" started-at="2019-05-16T00:15:53Z" data-provider="dp" finished-at="2019-05-16T00:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{sitename=crm, servername=prasanthan-ecrm, password=demo, username=demo}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFD -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.LaunchFD@3febb011]" name="getResult" is-config="true" duration-ms="8" started-at="2019-05-16T00:16:23Z" finished-at="2019-05-16T00:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchFD status=SUCCESS method=LaunchFD.launchFD(java.util.Hashtable)[pri:0, instance:testcases.LaunchFD@3febb011] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testcases.LaunchFD@3febb011]" name="TearDown" is-config="true" duration-ms="3144" started-at="2019-05-16T00:16:23Z" finished-at="2019-05-16T00:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- testcases.LaunchFD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

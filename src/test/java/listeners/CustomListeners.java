@@ -26,7 +26,7 @@ public class CustomListeners extends Testbase implements ITestListener, ISuiteLi
 
 		try {
 			messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-					+ ":8080/job/FDPageFact/HTML_20Report/";
+					+ ":8080/job/FDPGFTNORMAL/HTML_20Report/";
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
