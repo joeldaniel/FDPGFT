@@ -18,7 +18,7 @@ public class LaunchFD extends Testbase {
 
 		LP.logintoFD(data.get("username"), data.get("password"), data.get("servername"), data.get("sitename"));
 
-		Thread.sleep(30000);
+		Thread.sleep(3000);
 
 	}
 
